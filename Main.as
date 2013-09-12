@@ -5,13 +5,13 @@
 	import flash.utils.Timer;
 	
 	public class Main extends MovieClip {
-		var monTimer:Timer = new Timer(2000);
+		var monTimer:Timer = new Timer(4000);
 		var vies:int;
 		
 		public function Main() {
 			// constructor code
 			trace("allo");
-			//créer un timer pour ajouter des bogues aux 2 secondes
+			//créer un timer pour ajouter des bogues aux 4 secondes
 			vies = 10;
 			monTimer.addEventListener(TimerEvent.TIMER, ajouterBibitte);
 			monTimer.start();
